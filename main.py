@@ -179,7 +179,7 @@ st.title("AI Assistant")
 
 # Initialize session state
 if 'rag_system' not in st.session_state:
-    st.session_state.rag_system = EnhancedRAG(api_key="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")
+    st.session_state.rag_system = EnhancedRAG(api_key="")
 
 # User input
 question = st.text_input("Ask me anything!")
